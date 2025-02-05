@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 54px;
+    /* background-color: brown; */
+    margin: 0 80px;
+}
+.conteiner{
+    display: flex;
+}
+.logo{
+    width: 108px;
+    height: 23px;
+    padding: 15px;
+    display: flex;
+}
+.options{
+    margin: -48px;
+    margin-left: 100px
+
+}
+.lists{
+    display: flex;
+    column-gap: 30px;
+    font-size: 13px;
+    color: inherit;
+    font-family: inherit;
+    color: #262626;
+}
+li{
+    list-style-type: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+.list{
+    color: #262626;
+}
+.options-right{
+    margin: 35px;
+    margin-left: 1200px;
+    display: flex;
+    column-gap: 20px;
+    background-color: white;
+    font-size: 13px;
+    font-family: inherit;
+    color: #262626
+}
+
+.products{
+    border: none;
+    background-color: white;
+    color: #262626
+}
+
+.icon{
+    height: 25px;
+    width: 25px;
+}
+.icon-search, .icon{
+    margin-left: -20px;
+}
+.main-img{
+    margin: 5px;
+    width: 99.4%;
+}
+.main-text{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 200px;
+    color: white;
+
+    font-family: sans-serif;
+}
+
+.products__subtitle{
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.descr{
+    font-size: 13px;
+}
+.button-check{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 200px;
+
+}
+.button-check-into{
+    background-color: rgb(0, 146, 246);
+    border: none;
+    border-radius: 0px;
+    width: 241px;
+    height: 40px;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+}
+.products-2 {
+    padding-top: 100px;
+    margin: 5px 220px 30px;
+
+
+}
+
+.products-2 .wrapper {
+    display: flex;
+}
+
+.products-2 .flex-item {
+    width: 324px;
+    margin: 0 12px 0 12px;
+}
+
+.products-2 .flex-item img {
+    width: 324px;
+    height: 182px;
+}
+.products-2 .products__subtitle {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 12px;
+    font-family: sans-serif;
+}
+
+.products-2 .products__descr {
+    font-family: sans-serif;
+    margin-top: 12px;
+}
+
+.products-2 .products__more {
+    margin-top: 12px;
+    color: inherit;
+    font-family: inherit;
+    color:#0078d4;
+}
+
+.products .products__more a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+    color:#0078d4;
+}
+a{
+    color: inherit;
+}

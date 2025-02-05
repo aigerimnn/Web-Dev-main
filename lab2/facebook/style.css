@@ -1,0 +1,210 @@
+body{
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+.page{
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+
+}
+
+.logo{
+    margin-right: 0;
+    padding-right: 32px;
+    /* padding-top: 500px; */
+    display: inline-block;
+    margin-top: 112px;
+
+}
+.facebook{
+    font-size: 1.7em;
+    font-family: Helvetica, sans-serif, Kalvika;
+    color:  #316FF6 ;
+
+}
+.intro{
+    width: 500px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-size: normal;
+    line-height: 32px;
+    margin-top: -31px;
+}
+
+.page2{
+    height: 456px;
+    width: 396px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 40px;
+
+}
+.register{
+    height: 351.317px;
+    width: 396px;
+    background-color: white ;
+    display: inline-block;
+    border: 1px solid;
+    border-color: #fff;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding-bottom: 24px;
+    padding-top:10px;
+    margin: 40px 0 0;
+}
+
+.email{
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    width: 330px;
+    font-size: 17px;
+    height: 25px;
+    padding: 10px;
+}
+.password{
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    width: 330px;
+    font-size: 17px;
+    height: 25px;
+    padding: 10px;
+}
+.heademail{
+    text-align: center;
+    margin: 10px;
+}
+.headpassword{
+    margin:10px;
+    text-align: center;
+}
+.login{
+    text-align: center;
+    justify-self: center;
+}
+.forgot{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.forgot1{
+    color: #1877f2;
+    font-family: inherit;
+}
+.login_button{
+    width: 355px;
+    height: 50px;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 6px;
+    background-color: #1877f2;
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 15px;
+}
+
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+}
+
+.createnew{
+    width: 200px;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+
+}
+.create{
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    border-radius: 6px;
+    color: whitesmoke;
+    line-height: 48px;
+    padding: 0 16px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+}
+.word{
+    font-size: 13px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 30px auto;
+}
+
+footer {
+    height: 220.33px;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+    position:absolute;
+    margin-top: 189px;
+}
+.languages{
+    color: inherit;
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    font-size: 12px;
+}
+.local{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 14px;
+    color: #737373;
+    color: inherit;
+    list-style-type: none;
+}
+.login_button:hover{
+    background-color: #316FF6;
+    color: black;
+}
+.footerline{
+    width: 940px;
+    margin: 0 auto;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.contacts{
+    font-family: inherit;
+    color: inherit;
+    color: #737373;
+    align-items: center;
+    font-size: 12px;
+
+}
+.listofcontact{
+    list-style-type: none;
+    line-height: 1.6;
+    margin-left: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 14px;
+    color: #737373;
+    color: inherit;
+    width: 980px;
+    margin: 0 auto;
+}
+.meta{
+    font-family: inherit;
+    margin: auto;
+    font-size: 11px;
+    color: #737373;
+    margin-left: 453px
+}
+.metadiv{
+    margin-top: 10px;
+}
